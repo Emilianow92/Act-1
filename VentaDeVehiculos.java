@@ -52,7 +52,7 @@ public class VentaDeVehiculos {
                 System.out.println("Opción incorrecta.");
             }
 
-            System.out.print("¿Deseas agregar otro vehículo? (s/n): ");
+            System.out.print("¿Deseas agregar otro vehículo? (si/no): ");
             char respuesta = sc.next().toLowerCase().charAt(0);
             seguir = respuesta == 's';
         }
