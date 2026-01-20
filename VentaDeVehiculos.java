@@ -64,7 +64,7 @@ public class VentaDeVehiculos {
         System.out.println("Cliente: " + cliente);
         System.out.println("Fecha: " + fecha.format(formato));
         System.out.println("Total a pagar: $" + total);
-        System.out.println("Gracias por tu preferencia 🚗");
+        System.out.println("Gracias por tu preferencia, vuelva pronto 🚗");
         System.out.println("===============================");
 
         sc.close();
